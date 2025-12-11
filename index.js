@@ -87,6 +87,7 @@ mysubmit.onclick = function(){
              Nirbhayaramimage.style.display = "block";
              myimage.style.display = "none";
              nirbhayaram.style.display = "block";
+             certDiv.style.display = "none"
              Ramana.style.display = "none";
              poorna.style.display = "none";
              yuvaraj.style.display = "none";
@@ -99,6 +100,7 @@ mysubmit.onclick = function(){
         poorna.style.display = "block";
         yuvaraj.style.display = "none";
         nirbhayaram.style.display = "none";
+        certDiv.style.display = "none";
 
     
     }
@@ -110,6 +112,7 @@ mysubmit.onclick = function(){
         Ramana.style.display = "none";
         nirbhayaram.style.display = "none";
         poorna.style.display = "none";
+        certDiv.style.display = "none";
 
     }
 
