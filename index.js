@@ -50,6 +50,7 @@ themeBtn.addEventListener('click', () => {
 mysubmit.onclick = function(){
 
     age = mytext.value;
+    resultelement.textContent = "";
 
     if(age == "Ramana"){
         myimage.style.display = "block";
@@ -77,8 +78,7 @@ mysubmit.onclick = function(){
         ramanapara.style.display = "block";
         Ramana.querySelector("about us").style.display = "block";
         para.style.textAlign = 'center';
-        para.style.margin = '20px';
-        resultelement.textContent = "";  
+        para.style.margin = '20px'; 
         mycontact.style.display = "block";
        
     }
@@ -118,15 +118,11 @@ mysubmit.onclick = function(){
         resultelement.textContent = ` Notu! you enter the wrong name`;
         myimage.style.display = "none";
         Ramana.style.display = "none";
+        certDiv.style.display = "none";
         nirbhayaram.style.display = "none";
         poorna.style.display = "none";
         mycontact.style.display = "none";
         yuvaraj.style.display = "none";
     }
-  
-
-
-
-
-}
+  }
 
