@@ -91,6 +91,7 @@ mysubmit.onclick = function(){
              Ramana.style.display = "none";
              poorna.style.display = "none";
              yuvaraj.style.display = "none";
+            myimage.style.display = "none";
      }
 
      else if(age == "Poorna chandran"){
@@ -102,6 +103,7 @@ mysubmit.onclick = function(){
         yuvaraj.style.display = "none";
         nirbhayaram.style.display = "none";
         certDiv.style.display = "none";
+        myimage.style.display = "none";
 
     
     }
@@ -114,6 +116,7 @@ mysubmit.onclick = function(){
         nirbhayaram.style.display = "none";
         poorna.style.display = "none";
         certDiv.style.display = "none";
+        myimage.style.display = "none";
 
     }
 
