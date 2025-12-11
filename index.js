@@ -98,6 +98,7 @@ mysubmit.onclick = function(){
         poornachandran.style.display = "block";
         aboutpoorna.style.display = "block";
         poorna.style.display = "block";
+        Ramana.style.display = "none";
         yuvaraj.style.display = "none";
         nirbhayaram.style.display = "none";
         certDiv.style.display = "none";
