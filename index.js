@@ -99,6 +99,7 @@ mysubmit.onclick = function(){
         poorna.style.display = "block";
         yuvaraj.style.display = "none";
         nirbhayaram.style.display = "none";
+
     
     }
 
@@ -111,6 +112,7 @@ mysubmit.onclick = function(){
         poorna.style.display = "none";
 
     }
+
 
     else{
         resultelement.textContent = ` Notu! you enter the wrong name`;
