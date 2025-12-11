@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+   
+}
+
+/* dark and light mode */
+/* THEME VARIABLES */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #40104a;
+  --bg-image: none;
+  --bg-overlay: rgba(255,255,255,0.0);
+  
+  --nav-bg: #007bff;
+}
+
+/* dark mode values */
+body.dark {
+  --bg-color: #111827;
+  --text-color: #97fff5;
+  --bg-image: url('images/dark\ mode\ background.jpeg');
+  --bg-overlay: rgba(0,0,0,0.4);
+  --nav-bg: #1d4ed8;
+}
+
+/* use variables on page */
+body {
+  background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), var(--bg-image);
+  background-color: var(--bg-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+/* rest of your code stays exactly same */
+nav {
+  background-color: var(--nav-bg);
+}
+
+.Ramana,
+.certificate,
+.contacts,
+.header {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* toggle button */
+.theme.toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+#theme-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: var(--card-bg);
+  color: var(--text-color);
+  font-size: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.843);
+  transition: transform 0.2s ease, background 0.3s ease, color 0.3s ease;
+}
+
+#theme-btn:hover {
+  transform: scale(1.08);
+}
+/* background images */
+:root {
+  /* Light mode - both vars defined here */
+  --bg-image: url('images/light\ mode\ bacground.jpeg');
+  --bg-overlay: rgba(255,255,255,0.1);
+}
+
+.dark-mode {
+  /* Dark mode OVERRIDES the same vars */
+  --bg-image: url('https://img.freepik.com/free-vector/luxury-background-abstracts-modern_343694-1880.jpg?semt=ais_se_enriched&w=740&q=80');
+  --bg-overlay: rgba(0,0,0,0.4);
+}
+
+
+body {
+  background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  transition: background-image 0.5s ease;
+}
+
+/* My web site */
+
+nav{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#heater{
+    font-size: 40px;
+    color: rgb(89, 97, 249);
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+ul li{
+    padding:0px 20px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#2563EB;
+    font-size: 22px;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    color: rgb(7, 24, 217)
+}
+
+ul li .active{
+    color: rgb(168, 20, 111);
+}
+
+#button{
+    font-size: 22px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: rgb(89, 223, 160);
+    border-radius: 5px;
+    transition: 0.5px ease ;
+    color: rgb(104, 99, 239);
+}
+
+#button:hover{
+     background-color: rgb(47, 216, 44);
+
+}
+
+.header{
+    text-align: center;
+    padding: 2%;
+}
+
+#mytext{
+    outline-color: rgb(18, 193, 212);
+    outline-width: 3px;
+}
+
+#myimage{
+    margin: auto;
+    padding-top: 15px;
+}
+
+/* all Ramana contenten */
+
+.Ramana{
+    display: none;      /*default headings centered */
+    text-align: center;
+    margin: 20px;
+}
+
+.Ramana p{
+    text-align: left;   /* left align text */
+}
+
+.Ramana h1{
+    color: #2a5aba ;
+}
+
+.Ramana h2{
+    padding-top: 50px;  /* h2 paddings */
+    color:  #2a5aba ;
+}
+
+.skills-list{
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 4px;     /*space between items */
+}
+
+.certificate{
+    text-align: center;
+    margin: auto;
+    color:  #2a5aba ;
+}
+
+#cert-img{
+    margin: auto;
+    padding-top: 25px;
+}
+
+#myresume{
+    margin: auto;
+    width: 700px;
+    height: 800px;
+    padding-top: 25px;
+}
+
+#resume{
+    padding-top: 25px ;
+}
+
+.contacts{
+    text-align: center;
+    color:  #2a5aba ;
+    padding-top: 15px;
+    line-height: 2;
+}
+
+#resultelement{
+    text-align: center;
+    padding-top: 25px;  
+}
+
+.Nirbhayaram {
+    text-align: center;
+    line-height: 2;
+}
+
+.Nirbhayaram img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nirbhayaram h1,h2{
+    color:  #2a5aba ;
+}
+
+.Nirbhayaram p{
+    text-align: left;
+}
+
+.poorna-chandran{
+    text-align: center;
+    line-height: 2;
+}
+
+.poorna-chandran img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poorna-chandran h1,h2{
+    color: #2a5aba ; 
+}
+
+.poorna-chandran p{
+    text-align: left;
+}
+
+.Yuvaraj{
+    text-align: center;
+    line-height: 2;
+}
+
+.Yuvaraj img{
+    margin: auto;
+    display: block;
+}
+
+.Yuvaraj h1,h2{
+    color:#2a5aba ;  
+}
+
+.Yuvaraj p{
+    text-align: left;
+}
+
